@@ -58,7 +58,3 @@ python cifar_train.py
 The script downloads CIFAR-10 into `data/` on the first run.
 
 The trained model is in `cifar_model_v6_40ep.pt`. Load it into the model defined in `cifar_train.py` with `model.load_state_dict(torch.load("cifar_model_v6_40ep.pt"))`.
-
-## Next
-
-- Try transfer learning from a pretrained network.
