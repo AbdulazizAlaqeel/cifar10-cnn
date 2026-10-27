@@ -1,0 +1,9 @@
+data/
+*.out
+*.log
+__pycache__/
+*.pt
+!cifar_model_v6_40ep.pt
+cifar_train_dropout.py
+cifar_dropout.slurm
+cifar.slurm
